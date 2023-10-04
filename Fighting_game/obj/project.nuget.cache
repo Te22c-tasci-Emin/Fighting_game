@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/NL6MGeYIAsq0Ekq4cBiLepuYJQt3KukRqNZW33hRPvSjmkFKphKrxFGtQIg/sBFfi3PWBD36blOM2ZhzPDCRQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emin.tasci\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\emin.tasci\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\emin.tasci\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\emin.tasci\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.22\\microsoft.netcore.app.host.win-x64.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
