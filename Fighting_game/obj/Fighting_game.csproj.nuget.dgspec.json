@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj": {}
+    "C:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj": {}
   },
   "projects": {
-    "c:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj": {
+    "C:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj",
+        "projectUniqueName": "C:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj",
         "projectName": "Fighting_game",
-        "projectPath": "c:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj",
+        "projectPath": "C:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj",
         "packagesPath": "C:\\Users\\emin.tasci\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\obj\\",
+        "outputPath": "C:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -45,12 +45,12 @@ weaponsdmg = weaponsdmg.ToLower();
 
     }
 
-    //  else (weaponsdmg == "b)")
-    // {
-    //     kazuyaWeaponDamage = 30;
-    //     kazuyaAccuracy = 15;
+      else if (weaponsdmg == "b)")
+     {
+         kazuyaWeaponDamage = 30;
+        kazuyaAccuracy = 15;
 
-    // }
+     }
 
      else if (weaponsdmg == "c)")
      {
@@ -67,10 +67,10 @@ while (kazuyaHp > 0 && heihatchiHp > 0)
     Console.WriteLine("--------------- Ny Runda ----------------------");
     Console.WriteLine($"Demonen {kazuyaName} har nu {kazuyaHp} hp");
 
-    int random = generator.Next(100);
-    if (random < kazuyaAccuracy)
+    int doesheyahit = generator.Next(100);
+    if (doesheyahit < kazuyaAccuracy)
     {
-        int heihatchidamage = generator.Next(heihatchiWeaponDamage);
+        int heihatchidamage = generator.Next(kazuyaWeaponDamage);
         kazuyaHp -= heihatchidamage;
         kazuyaHp = Math.Max(0, kazuyaHp);
         Console.WriteLine($"{heihatchiName} Slår och gör {heihatchidamage} damage gjord, nya hp = {kazuyaHp}");

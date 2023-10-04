@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/NL6MGeYIAsq0Ekq4cBiLepuYJQt3KukRqNZW33hRPvSjmkFKphKrxFGtQIg/sBFfi3PWBD36blOM2ZhzPDCRQ==",
+  "dgSpecHash": "s7FVn66Jn/Y8h5rmpFSo3G+ZXElm0NMh5O7NlHBk5j8RwQnhko8uKWhdl013Q4EFO3K0G8tQyPVlkAtX1es72Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj",
+  "projectFilePath": "C:\\Users\\emin.tasci\\Desktop\\Prog1\\Fighting_game\\Fighting_game\\Fighting_game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emin.tasci\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
     "C:\\Users\\emin.tasci\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
