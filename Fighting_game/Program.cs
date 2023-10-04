@@ -65,7 +65,34 @@ weaponsdmg = weaponsdmg.ToLower();
 while (kazuyaHp > 0 && heihatchiHp > 0)
 {
     Console.WriteLine("--------------- Ny Runda ----------------------");
-    Console.WriteLine($"Demonen {kazuyaName} har nu {kazuyaHp} hp");
+    Console.WriteLine(@"         |    |              _.-7
+           |\.-.|             ( ,(_                            
+           | a a|              \\  \,
+           ) ['||          _.--' \  \\
+        .-'  '-''-..____.-'    ___)  )\
+       F   _/-``-.__;-.-.--`--' . .' \_L_
+      |   l  {~~} ,_\  '.'.      ` __.' )\
+      (    -.;___,;  | '- _       :__.'( /
+      | -.__ _/_.'.-'      '-._ .'      \\
+      |     .'   |  -- _                 '\,
+      |  \ /--,--{ .    '---.__.       .'  .'
+      J  ;/ __;__]. '.-.            .-' )_/
+      J  (-.     '\'. '. '-._.-.-'--._ /
+      |  |  '. .' | \'. '.    ._       \
+      |   \   T   |  \  '. '._  '-._    '.
+      F   J   |   |  '.    .  '._   '-,_.--`
+      F   \   \   F .  \    '.   '.  /
+     J     \  |  J   \  '.   '.    '/
+     J      '.L__|    .   \    '    |
+     |   .    \  |     \   '.   '. /
+     |    '    '.|      |    ,-.  (
+     F   | ' ___  ',._   .  /   '. \
+     F   (.'`|| (-._\ '.  \-      '-\
+     \ .-'  ( L `._ '\ '._ (
+snd  /'  |  /  '-._\      ''\
+         `-'        <---- Demonen Kazuya");
+    Console.WriteLine($"Demonen {kazuyaName} har nu {kazuyaHp} hp" );
+    
 
     int doesheyahit = generator.Next(100);
     if (doesheyahit < kazuyaAccuracy)
@@ -86,6 +113,39 @@ while (kazuyaHp > 0 && heihatchiHp > 0)
         heihatchiHp -= kazuyadamage;
         heihatchiHp = Math.Max(0, heihatchiHp);
         Console.WriteLine($"{kazuyaName} Slår och gör {kazuyadamage} damage gjord, nya hp = {heihatchiHp}");
+        Console.WriteLine(@"                                  `$/              
+           '__'                        O$               
+       '_.-'                          $'              
+    ''.-'`. .-':       'o      ___     ($o              
+ ''.-'.-  .'   ;      ,st+.  .' , \    ($               
+':_..-+''    :       'T   '^T==^;\;;-._ $\              
+   ''''-,   ;       '    /  `-:-// / )$/              
+        :   ;           /   /  :/ / /dP               
+        :   :          /   :    )^-:_.l               
+        ;    ;        /    ;    `.___, \           .-,
+       :     :       :  /  ;.q$$$$$$b   \$$$p,    /  ;
+       ;   :  ;      ; :   :$$$$$$$$$b   T$$$$b .'  / 
+       ;   ;  :      ;   _.:$$$$$$$$$$    T$$P^''   /l 
+       ;.__L_.:   .q$;  :$$$$$$$$$$$$$;_   TP .-'' / ; 
+       :$$$$$$;.q$$$$$  $$$$$$$$$$$$$$$$b  / /  .' /  
+        $$$$$$$$$$$$$;  $$$$$$$$P^'' '^Tb$b/   .'  :   
+        :$$$$$$$$$$$$;  $$$$P^jp,      `$$_.+'    ;   
+        $$$$$$$$$$$$$;  :$$$.d$$;`- _.-d$$ /     :    
+        '^T$$$$$P^^'/   :$$$$$$P      d$$;/      ;    
+                   :    $$$$$$P'-. .--$$P/      :     
+                   ;    $$$$P'( ,    d$$:b     .$     
+                   :    :$$P .-dP-'  $^'$$bqqpd$$     
+                    `.   '' ' s')  .'  d$$$$$$$$'     
+                      \           /;  :$$$$$$$P'      
+                    _  '-, ;       '.  T$$$$P'        
+                   / '-.'  :    .--.___.`^^'          
+                  /      . :  .'                      
+                  ),sss.  \  :  bug                   
+                 : TP''Tb. ; ;                        
+                 ;  Tb  dP   :                        
+                 :   TbdP    ;                        
+                  \   $P    /                         
+                   `-.___.-''  ");
 
         Console.WriteLine("Press buttonis för att fortsätta.");
         Console.ReadKey();
